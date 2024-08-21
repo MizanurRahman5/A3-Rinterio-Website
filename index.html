@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <!-- ------------Font Awesome CDN------------ -->
+    <script
+      src="https://kit.fontawesome.com/f376985f2e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ------------Google Font CDN------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ------------DaisyUI and Tailwind css CDN------------ -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ------------Custom CSS------------ -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              secondary: "#737373",
+              btBg:'#ABEF5F',
+            },
+            fontFamily: {
+              manrope: "Manrope",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!--  -->
+  </head>
+  <body class="font-manrope">
+    <!-- --------Header-------- -->
+    <header class="bg-gradient-to-r from-sky-500 to-indigo-500">
+        <!-- navBar Start -->
+         <section class="container mx-auto">
+            <div class="navbar ">
+                <div class="navbar-start">
+                  
+                  
+                  <a href="#" class=" text-xl">
+                    <i class="rotate-45 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"></i>
+                    <h1 class="inline text-3xl font-extrabold">Rinterio</h1>
+                  </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu text-secondary font-extrabold text-[16px]  menu-horizontal px-1">
+                    <li><a class="hover:text-black  transition-colors duration-300 ">Home</a></li>
+                    <li><a class="hover:text-black  transition-colors duration-300">Service</a></li>
+                    <li><a class="hover:text-black  transition-colors duration-300">Portfolio</a></li>
+                    <li><a class="hover:text-black  transition-colors duration-300">Blogs</a></li>
+                    <li><a class="hover:text-black  transition-colors duration-300">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                 <div class="max-sm:hidden">
+                    <a class="rounded-full border-none btn bg-btBg text-black font-extrabold text-xl">Book Consult<i class="rotate-45 text-white p-2 bg-black w-8 rounded-full h-8 fa-solid fa-arrow-up-long"></i></a>
+                 </div>
+
+
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="text-xl fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm right-0 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+         </section>
+        <!-- navBar End -->
+    </header>
+    <!-- ---------Main---------- -->
+    <main></main>
+    <!-- --------footer------- -->
+    <footer></footer>
+  </body>
+</html>
