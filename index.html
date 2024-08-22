@@ -38,6 +38,7 @@
               btBg: "#ABEF5F",
               secondaryBg: "#F4F4F4",
               extra: "#737373",
+              footerNav:'#E9E9E9',
             },
             fontFamily: {
               manrope: "Manrope",
@@ -60,10 +61,13 @@
         <div class="navbar">
           <div class="navbar-start">
             <a href="#" class="text-xl">
-              <i
-                class="rotate-45 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
+              <div class="flex items-center gap-2">
+                <i
+                class="rotate-45 p-2 bg-btBg w-10 rounded-full h-10 flex items-center justify-center fa-solid fa-arrow-up-long"
               ></i>
-              <h1 class="inline text-3xl font-extrabold">Rinterio</h1>
+              <h1 class="inline text-4xl font-extrabold">Rinterio</h1>
+            </div>
+              
             </a>
           </div>
           <div class="navbar-center hidden lg:flex">
@@ -538,7 +542,7 @@
 
       <!-- --------discus section start-------- -->
        <section class="py-24 bg-discus bg-cover bg-no-repeat">
-        <div class="md:w-4/6 mx-auto">
+        <div class="container md:w-4/6 mx-auto">
           <div>
             <p
               class="p-4 mx-auto max-sm:mx-auto font-bold flex items-center bg-[#E5F3D6] rounded-full max-w-[180px]"
@@ -583,7 +587,34 @@
     <!-- --------footer------- -->
     <footer>
 
-
+      <footer class="footer footer-center bg-black text-base-content rounded p-10">
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <i
+            class="rotate-45 text-xl p-2 bg-btBg w-10 rounded-full h-10 flex items-center justify-center fa-solid fa-arrow-up-long"
+          ></i>
+          <h1 class="inline text-4xl text-white font-extrabold">Rinterio</h1>
+        </div>
+          <p class="text-extra w-3/4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <nav class="md:flex text-footerNav md:space-x-24">
+          <a class="link no-underline">Home</a>
+          <a class="link no-underline">Service</a>
+          <a class="link no-underline">Portfolio</a>
+          <a class="link no-underline">Bloge</a>
+          <a class="link no-underline">Contact Us</a>
+        </nav>
+        <aside>
+          <button
+          class="btn border-[#ABEF5F] text-xl font-bold py-1 px-3 bg-[#D4F6AE] rounded-full"
+        >
+          View Details
+          <i
+            class="rotate-45 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
+          ></i>
+        </button>
+        </aside>
+      </footer>
 
 
       
