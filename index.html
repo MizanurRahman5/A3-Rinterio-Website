@@ -42,6 +42,9 @@
             fontFamily: {
               manrope: "Manrope",
             },
+            backgroundImage:{
+              discus:"url('./assets/bg.jpg')",
+            }
           },
         },
       };
@@ -420,15 +423,15 @@
           </div>
 
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <div class="card bg-base-100">
-              <figure class="px-10 pt-10">
+            <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
+              <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5 ">
                 <img
                   src="assets/article1.png"
                   alt="Shoes"
-                  class="rounded-xl w-full"
+                  class="rounded-xl md:h-full w-full"
                 />
               </figure>
-              <div class="card-body items-start">
+              <div class="card-body md:col-span-2 items-start">
                 <div class="flex items-center justify-between gap-10">
                   <div class="flex items-center gap-2">
                     <img src="assets/calendar-03.png" alt="" />
@@ -456,15 +459,15 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-base-100">
-              <figure class="px-10 pt-10">
+            <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
+              <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5">
                 <img
                   src="assets/article2.png"
                   alt="Shoes"
-                  class="rounded-xl w-full"
+                  class="rounded-xl md:h-full w-full"
                 />
               </figure>
-              <div class="card-body items-start">
+              <div class="card-body md:col-span-2 items-start">
                 <div class="flex items-center justify-between gap-10">
                   <div class="flex items-center gap-2">
                     <img src="assets/calendar-03.png" alt="" />
@@ -492,15 +495,15 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-base-100">
-              <figure class="px-10 pt-10">
+            <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
+              <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5">
                 <img
                   src="assets/article3.png"
                   alt="Shoes"
-                  class="rounded-xl w-full"
+                  class="rounded-xl md:h-full w-full"
                 />
               </figure>
-              <div class="card-body items-start">
+              <div class="card-body md:col-span-2 items-start">
                 <div class="flex items-center justify-between gap-10">
                   <div class="flex items-center gap-2">
                     <img src="assets/calendar-03.png" alt="" />
@@ -534,9 +537,56 @@
       <!-- ----------rinterio News Section End------------ -->
 
       <!-- --------discus section start-------- -->
+       <section class="py-24 bg-discus bg-cover bg-no-repeat">
+        <div class="md:w-4/6 mx-auto">
+          <div>
+            <p
+              class="p-4 mx-auto max-sm:mx-auto font-bold flex items-center bg-[#E5F3D6] rounded-full max-w-[180px]"
+            >
+              <i class="pr-3 fa-solid fa-arrow-right-long"></i>Let’s Connect
+            </p>
+          </div>
+          <div class="text-center space-y-6 my-8">
+            <h1 class="text-4xl font-bold">Let’s Discuss Next Project</h1>
+            <p class="text-primary w-3/6 mx-auto">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+          <div>
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+              <div>
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Your Name*" type="text">
+              </div>
+              <div>
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Enter Your Email*" type="text">
+              </div>
+            </div>
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+              <div>
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Enter your subject*" type="text">
+              </div>
+              <div>
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Enter your phone number*" type="text">
+              </div>
+            </div>
+            <div>
+              <textarea rows="10" class="p-3 mt-6 w-full border-none outline-none rounded-2xl bg-slate-100 h-full" placeholder="Enter your message"></textarea>
+    
+              <button class="py-6 mt-8 rounded-full text-black text-lg font-extrabold w-full bg-btBg">Send Meil</button>
+          </div>
+        </div>
+       </section>
       <!-- --------discus section End-------- -->
     </main>
     <!-- --------footer------- -->
-    <footer></footer>
+    <footer>
+
+
+
+
+      
+    </footer>
   </body>
 </html>
