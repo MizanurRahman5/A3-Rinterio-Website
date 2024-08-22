@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
-    <!-- ------------⁡⁣⁣⁢Font Awesome CDN⁡------------ -->
+    <!-- ------------⁡⁣⁣⁢𝘍𝘰𝘯𝘵 𝘈𝘸𝘦𝘴𝘰𝘮𝘦 𝘊𝘋𝘕⁡------------ -->
     <script
       src="https://kit.fontawesome.com/f376985f2e.js"
       crossorigin="anonymous"
     ></script>
 
-    <!-- ------------⁡⁣⁣⁢Google Font CDN⁡------------ -->
+    <!-- ------------⁡⁣⁣⁢𝘎𝘰𝘰𝘨𝘭𝘦 𝘍𝘰𝘯𝘵 𝘊𝘋𝘕⁡------------ -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
 
-    <!-- ------------⁡⁢⁣⁡⁣⁣⁢DaisyUI and Tailwind css CDN⁡⁡------------ -->
+    <!-- ------------⁡⁢⁣⁡⁣⁣⁢𝘋𝘢𝘪𝘴𝘺𝘜𝘐 𝘢𝘯𝘥 𝘛𝘢𝘪𝘭𝘸𝘪𝘯𝘥 𝘤𝘴𝘴 𝘊𝘋𝘕⁡⁡------------ -->
 
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -27,7 +27,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- ------------⁡⁢⁣⁡⁣⁣⁢Custom CSS⁡⁡------------ -->
+    <!-- ------------⁡⁢⁣⁡⁣⁣⁢𝘊𝘶𝘴𝘵𝘰𝘮 𝘊𝘚𝘚⁡⁡------------ -->
     <script>
       tailwind.config = {
         theme: {
@@ -54,7 +54,7 @@
   <body class="font-manrope">
     <!-- --------⁡⁣⁣⁢𝙃𝙚𝙖𝙙𝙚𝙧 ⁡⁣⁣⁢𝙨𝙩𝙖𝙧𝙩⁡⁡-------- -->
     <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF]">
-     ⁡⁢⁣⁡⁢⁣⁣ ⁡⁢⁢⁢<!--navBar -->⁡⁡
+     <!--navBar -->
       <section class="container mx-auto max-sm:px-6">
         <div class="navbar">
           <div class="navbar-start">
@@ -100,10 +100,10 @@
             </ul>
           </div>
           <div class="navbar-end space-x-3">
-            <div class="space-x-3 text-xl max-sm:hidden">
+            <div class="space-x-3 md:flex text-xl max-sm:hidden">
               <a href="#"
                 ><i
-                  class="bg-white border rounded-full p-3 fa-solid fa-magnifying-glass"
+                  class="bg-white border flex items-center justify-center rounded-full p-3 fa-solid fa-magnifying-glass"
                 ></i
               ></a>
               <a href=""
@@ -113,13 +113,11 @@
               ></a>
             </div>
 
-            <div class="max-sm:hidden">
+            <div class="max-sm:hidden bg-btBg md:flex rounded-full gap-2 items-center justify-center py-3 px-5 ">
               <a
-                class="rounded-full border-none btn bg-btBg text-black font-extrabold text-xl"
-                >Book Consult<i
-                  class="rotate-45 text-white p-2 bg-black w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-                ></i
-              ></a>
+                class="border-none   text-black font-extrabold text-xl" href="#">Book Consult</a>
+                <i class="rotate-45 text-white flex items-center justify-center text-xl p-2 bg-black w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i
+              >
             </div>
 
             <div class="dropdown">
@@ -146,7 +144,7 @@
       </section>
       
       <!-- Banner -->
-      <section class="max-sm:px-6">
+      <section class="container mx-auto max-sm:px-6">
         <div class="flex my-20 gap-6 flex-col items-center justify-center">
           <img src="assets/banner.png" alt="" />
           <h1 class="text-6xl font-extrabold lg:w-3/5 text-center">
@@ -233,7 +231,7 @@
             />
           </div>
         </div>
-        <!-- client info -->
+        <!-- client info section -->
         <div class="pb-12">
           <div class="container mx-auto p-11 bg-white rounded-lg">
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -267,9 +265,9 @@
         <div class="container mx-auto max-sm:px-6">
           <div class="">
             <p
-              class="p-4 mx-auto max-sm:mx-auto font-bold flex items-center bg-white rounded-full max-w-[150px]"
+              class="p-4 mx-auto max-sm:mx-auto font-bold flex items-center bg-white rounded-full max-w-[180px]"
             >
-              <i class="pr-3 fa-solid fa-arrow-right-long"></i>About Us
+              <i class="pr-3 fa-solid fa-arrow-right-long"></i>How we works
             </p>
           </div>
           <div class="text-center space-y-6 my-8">
@@ -331,7 +329,7 @@
             </p>
           </div>
           <div class="text-center space-y-6 my-8">
-            <h1 class="text-4xl font-bold">Read Our Articles and News</h1>
+            <h1 class="text-4xl font-bold">Our Latest Portfolio</h1>
             <p class="text-primary w-3/6 mx-auto">
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
@@ -343,58 +341,50 @@
             <div class="lg:col-span-2">
               <div class="md:flex gap-4 border p-5 rounded-lg">
                 <div class="md:w-[1005px]">
-                  <img class="w-[100%]" src="assets/img1.png" alt="" />
+                  <img class="w-[100%] lg:h-[254px] object-cover rounded-2xl" src="assets/img1.png" alt="" />
                 </div>
                 <div class="space-y-7">
                   <h1 class="lg:text-2xl font-extrabold">Commercial</h1>
                   <p class="text-extra text-[16px] lg:leading-7">
                     Step into a world of elegance and comfort with our exclusive homes. Featuring cutting-edge designs, modern amenities, and prime locations, we offer the perfect blend of luxury and convenience. Elevate your lifestyle with us today!
                   </p>
-                  <div class="card-actions s">
-                    <h1 class="text-xl font-bold">
-                      View Details
-                      <i
-                        class="rotate-45 ml-2 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-                      ></i>
-                    </h1>
+                  <div class="card-actions flex items-center ">
+                    <h1 class="text-xl font-bold">View Details</h1>
+                    <i class="rotate-45 ml-2 text-xl flex items-center justify-center p-2 bg-btBg w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
                   </div>
                 </div>
               </div>
             </div>
             <div class="md:flex gap-4">
               <div class="lg:w-full">
-                <div class="p-5 border  lg:w-full rounded-lg"><img class="w-full" src="assets/img2.png" alt="" /></div>
+                <div class="p-5 border  lg:w-full rounded-lg"><img class="object-cover rounded-2xl w-full lg:h-[254px]" src="assets/img2.png" alt="" /></div>
               </div>
                 <div class="p-5 border md:w-1/2 lg:hidden rounded-lg"><img class="w-full md:h-[180px] object-cover rounded-2xl " src="assets/img5.png" alt="" /></div>
               </div>
             </div>
           <!-- -----grid lay2------ -->
             <div class="grid my-5 grid-cols-1 md:gap-7 md:grid-cols-2 lg:grid-cols-4"> 
-              <div class="p-5 border max-sm:sm:order-1  h-full lg:w-full rounded-lg">
+              <div class="p-5 border order-2  h-full lg:w-full rounded-lg">
                 <img class="w-full h-full" src="assets/img3.png" alt="">
               </div>
-              <div class="col-span-2">
+              <div class="col-span-2 order-1 lg:order-2">
                 <div class="md:flex gap-4 border p-5 rounded-lg">
-                  <div class="md:w-[1005px]">
-                    <img class="w-[100%]" src="assets/img4.png" alt="" />
+                  <div class="md:w-[1005px] flex-1">
+                    <img class="w-[100%] lg:h-[255px]"  src="assets/img4.png" alt="" />
                   </div>
-                  <div class="space-y-7">
+                  <div class="space-y-7 flex-1">
                     <h1 class="lg:text-2xl font-extrabold">Commercial</h1>
                     <p class="text-extra text-[16px] lg:leading-7">
                       Step into a world of elegance and comfort with our exclusive homes. Featuring cutting-edge designs
                     </p>
-                    <div class="card-actions s">
-                      <h1 class="text-xl font-bold">
-                        View Details
-                        <i
-                          class="rotate-45 ml-2 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-                        ></i>
-                      </h1>
+                    <div class="card-actions flex items-center ">
+                      <h1 class="text-xl font-bold">View Details</h1>
+                      <i class="rotate-45 ml-2 text-xl flex items-center justify-center p-2 bg-btBg w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
                     </div>
                   </div>
                 </div>
               </div> 
-              <div class="p-5 border  lg:w-full rounded-lg">
+              <div class="p-5 border order-2 max-sm:col-span-2 lg:w-full rounded-lg">
                 <img class="w-full h-full" src="assets/img5.png" alt="">
               </div> 
 
@@ -402,10 +392,10 @@
           </div>
         </div>
       </section>
-      <!-- -----------𝗢𝘂𝗿 𝗹𝗮𝘁𝗲𝘀𝘁 𝗽𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 𝗘𝗻𝗱--------------- -->
+      <!-- -----------𝙊𝙪𝙧 𝙡𝙖𝙩𝙚𝙨𝙩 𝙥𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤 𝙀𝙣𝙙--------------- -->
 
       <!-- ----------𝙧𝙞𝙣𝙩𝙚𝙧𝙞𝙤 𝙉𝙚𝙬𝙨 𝙎𝙚𝙘𝙩𝙞𝙤𝙣 𝙨𝙩𝙖𝙧𝙩------------ -->
-      <section class="py-24 bg-secondaryBg">
+      <section class="py-24 px-5 bg-secondaryBg">
         <div class="container mx-auto">
           <!-- header -->
           <div>
@@ -451,13 +441,9 @@
                   The barn house captivates with its blend of rustic charm and
                   modern.
                 </p>
-                <div class="card-actions s">
-                  <h1 class="text-xl font-bold">
-                    Read More
-                    <i
-                      class="rotate-45 ml-2 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-                    ></i>
-                  </h1>
+                <div class="card-actions flex items-center justify-center">
+                  <h1 class="text-xl font-bold">Read More</h1>
+                  <i class="rotate-45 ml-2 text-xl flex items-center justify-center p-2 bg-btBg w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
                 </div>
               </div>
             </div>
@@ -487,13 +473,9 @@
                   The barn house captivates with its blend of rustic charm and
                   modern.
                 </p>
-                <div class="card-actions s">
-                  <h1 class="text-xl font-bold">
-                    Read More
-                    <i
-                      class="rotate-45 ml-2 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-                    ></i>
-                  </h1>
+                <div class="card-actions flex items-center justify-center">
+                  <h1 class="text-xl font-bold">Read More</h1>
+                  <i class="rotate-45 ml-2 text-xl flex items-center justify-center p-2 bg-btBg w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
                 </div>
               </div>
             </div>
@@ -523,13 +505,9 @@
                   The barn house captivates with its blend of rustic charm and
                   modern.
                 </p>
-                <div class="card-actions s">
-                  <h1 class="text-xl font-bold">
-                    Read More
-                    <i
-                      class="rotate-45 ml-2 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-                    ></i>
-                  </h1>
+                <div class="card-actions flex items-center justify-center">
+                  <h1 class="text-xl font-bold">Read More</h1>
+                  <i class="rotate-45 ml-2 text-xl flex items-center justify-center p-2 bg-btBg w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
                 </div>
               </div>
             </div>
@@ -539,7 +517,7 @@
       <!-- ----------𝙧𝙞𝙣𝙩𝙚𝙧𝙞𝙤 𝙉𝙚𝙬𝙨 𝙎𝙚𝙘𝙩𝙞𝙤𝙣 𝙀𝙣𝙙------------- -->
 
       <!-- --------------𝙙𝙞𝙨𝙘𝙪𝙨 𝙨𝙚𝙘𝙩𝙞𝙤𝙣 𝙨𝙩𝙖𝙧𝙩---------------- -->
-       <section class="py-24 bg-discus bg-cover bg-no-repeat">
+       <section class="py-24 px-6 bg-discus bg-cover bg-no-repeat">
         <div class="container md:w-4/6 mx-auto">
           <div>
             <p
@@ -562,27 +540,32 @@
                 <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Your Name*" type="text">
               </div>
               <div>
-                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Enter Your Email*" type="text">
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Last Name*" type="text">
               </div>
             </div>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
               <div>
-                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Enter your subject*" type="text">
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Phone Number*" type="text">
               </div>
               <div>
-                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Enter your phone number*" type="text">
+                <input class="p-4 mt-6 w-full border-none outline-none rounded-full bg-slate-100" placeholder="Email Number*" type="text">
               </div>
             </div>
             <div>
               <textarea rows="10" class="p-3 mt-6 w-full border-none outline-none rounded-2xl bg-slate-100 h-full" placeholder="Enter your message"></textarea>
     
-              <button class="py-6 mt-8 rounded-full text-black text-lg font-extrabold w-full bg-btBg">Send Meil</button>
+              <div class="flex items-center gap-3 mt-8 justify-center py-3 w-full bg-btBg rounded-full">
+                <button class="text-black text-xl font-extrabold">
+                  Send Mail 
+                </button>
+                <i class="rotate-45 mr-3 text-white text-lg flex items-center justify-center bg-black w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
+              </div>
           </div>
         </div>
        </section>
       <!-- ---------------𝙙𝙞𝙨𝙘𝙪𝙨 𝙨𝙚𝙘𝙩𝙞𝙤𝙣 𝙀𝙣𝙙---------------- -->
     </main>
-      <!-- ---------⁡⁣⁣⁢⁡⁣⁣⁢𝙈𝙖𝙞𝙣 𝙀𝙣𝙙-⁡--------- -->
+      <!-- ---------------------⁡⁣⁣⁢⁡⁣⁣⁢𝙈𝙖𝙞𝙣 𝙀𝙣𝙙-⁡----------------- -->
       <!-- -------------------⁡⁣⁣⁢𝙛𝙤𝙤𝙩𝙚𝙧 𝙨𝙩𝙖𝙧𝙩⁡------------------ -->
       <footer class="footer footer-center bg-black text-base-content rounded p-10">
         <div class="space-y-4">
@@ -594,22 +577,20 @@
         </div>
           <p class="text-extra w-3/4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
-        <nav class="md:flex text-footerNav md:space-x-24">
+        <!-- 𝘯𝘢𝘷𝘉𝘢𝘳 -->
+        <nav class="md:flex text-footerNav max-sm:space-y-4 md:space-x-24">
           <a class="link no-underline">Home</a>
           <a class="link no-underline">Service</a>
           <a class="link no-underline">Portfolio</a>
           <a class="link no-underline">Bloge</a>
           <a class="link no-underline">Contact Us</a>
         </nav>
-        <aside>
+        <aside class="flex items-center p-2 justify-center bg-[#D4F6AE] rounded-full">
           <button
-          class="btn border-[#ABEF5F] text-xl font-bold py-1 px-3 bg-[#D4F6AE] rounded-full"
-        >
+          class=" border-[#ABEF5F] text-xl font-bold py-3 px-4 rounded-full">
           View Details
-          <i
-            class="rotate-45 p-2 bg-btBg w-8 rounded-full h-8 fa-solid fa-arrow-up-long"
-          ></i>
         </button>
+        <i class="rotate-45 mr-3 text-white text-lg flex items-center justify-center bg-black w-10 rounded-full h-10 fa-solid fa-arrow-up-long"></i>
         </aside>
       </footer>
       <!-- --------------------⁡⁣⁣⁢𝙛𝙤𝙤𝙩𝙚𝙧 𝙀𝙣𝙙⁡----------------- -->
